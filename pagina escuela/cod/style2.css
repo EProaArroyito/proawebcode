@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.arriba{
+    display: flex;
+    background-color: #023e73;
+    width: 1278px;
+    height: 100px
+    padding-left 350px;   
+    padding-right: 70px;
+}
+
+
+
+.cositos ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    align-content:center;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-4.6px);
+    text-align:center;
+}
+
+.cositos ul li{
+    display: inline;
+    margin-right: 100px;
+    color: rgb(63, 104, 140);
+    padding: 30px 35px;
+    transition: transform 0.3s ease, backgound-color 0.3s ease;
+    transform: translateY(-5px);
+    
+
+    a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-family: "poppins";
+        
+    }
+}
+
+.cositos ul li :hover{
+    transform: translateY(-5px);
+    background-color: rgb(184, 202, 217);
+    padding: 10px;
+    width: 200px; 
+    transition: color 0.3s ease;
+
+}
+
+.menu ul li:last-child{
+    margin-right: 0;
+}
+
+
+
+h1{
+    font-family: "Poppins";
+    color: rgb(255, 255, 255);
+    padding-left: 20px
+}
+
+
+
+.d:hover{
+    transform: translateY(-2.4px);
+    background-color: rgb(255, 255, 255);
+    
+}
+.t:hover{
+    transform: translateY(-1.4px);
+    background-color: rgb(63, 104, 140);
+}
+.imagen{
+    width: 350px;
+    margin: left 50px;
+    margin-top: 50px;
+}
+
+.logo{
+    padding-left: 15px;
+    padding-top: 8px;
+}
+
+.portada{
+    padding-top: 15px;
+}

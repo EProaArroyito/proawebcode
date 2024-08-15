@@ -1,0 +1,123 @@
+h1{
+    text-align: center;
+    color:#ffffff;  
+    font-family: "Poppins";
+    text-transform: uppercase;
+    height: 40px
+}
+h3{
+    font-family:"Poppins";
+
+    
+}
+.arriba{
+    display: flex;
+    background-color: #023e73;
+    width: 1568px;
+    height: 100px
+}
+.volver{
+    font-family: "Poppins";
+    transform: translateY(37px);
+    text-decoration: none;
+    color: rgb(32, 73, 106);
+    padding-left: 20px;
+    padding-top: 200px;
+}
+
+.logo{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+h1{
+    padding-left: 10px;
+}
+
+body{
+    background-color: rgb(184, 202, 217);
+    margin: 0%;
+}
+.medio{
+    background-color: #ffffff;
+    margin: 0%;
+}
+.medio1{
+    background-color: #ffffff;
+}
+.medio2{
+    background-color:#ffffff;
+}
+.medio3{
+    background-color: #ffffff;
+}
+.medio4{
+    background-color: #ffffff;
+}
+
+.medio img {
+    float: right;
+    overflow: hidden;
+    margin: 40px;
+
+}
+.medio {
+    display: flex;
+    justify-content: flex-start
+}
+  
+.medio1 img{
+    float: right;
+    overflow: hidden;
+    margin: 40px;
+}
+.medio1{
+    display: flex;
+    justify-content: flex-start
+}
+
+.medio2 img{
+    float: right;
+    overflow: hidden;
+    margin: 40px;
+}
+.medio2{
+    display: flex;
+    justify-content: flex-start
+}
+.medio3{
+    display: flex;
+    justify-content: flex-start
+}
+.medio3 img{
+    float: right;
+    overflow: hidden;
+    margin: 40px;
+}
+.medio4{
+    display: flex;
+    justify-content: flex-start
+}
+.medio4 img{
+    float: right;
+    overflow: hidden;
+    margin: 40px;
+}
+.medio h3, .medio1 h3, .medio2 h3, .medio3 h3, .medio4 h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 80px;
+  }
+
+  .medio:hover, .medio1:hover, .medio2:hover, .medio3:hover, .medio4:hover {
+    background-color: rgba(13, 12, 44, 0.2);
+  }
+  
+  .medio img:hover, .medio1 img:hover, .medio2 img:hover, .medio3 img:hover, .medio4 img:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #666;
+  }

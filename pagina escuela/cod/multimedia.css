@@ -1,0 +1,31 @@
+.banderas{
+    background-color: rgb(184, 202, 217); 
+    margin: 0;
+    padding: 1px;   
+    justify-content: space-between;
+    
+}
+
+h1{
+    padding-left: 15px;
+    color: rgb(58, 112, 159);
+    font-family: "Poppins";
+    .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    }
+}
+
+h2{
+    color: rgb(2, 62, 115);
+    padding-left: 15px;
+    font-family: "Poppins";
+    .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    }
+    display: inline;
+}
+

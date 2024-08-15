@@ -1,0 +1,170 @@
+
+body {
+    background-color: rgb(242, 242, 242);
+}
+
+table tr{
+    font-family: "Poppins";
+    letter-spacing: 0,1;
+    color: rgb(0, 0, 0);
+}
+.a{
+    padding-left: 65px;
+    text-align: start;
+}
+.pro1 tr{
+    letter-spacing: 700px;
+}
+.b{
+    padding-left: 50px;
+}
+
+.c{
+    padding-left: 65px;
+}
+
+.d{
+    padding-left: 60px;
+}
+
+.e{
+    padding-left: 65px;
+}
+
+.f{
+    padding-left: 60px;
+}
+
+.g{
+    padding-left: 60px;
+}
+
+.h{
+    padding-left: 60px;
+}
+
+.i{
+    padding-left: 66px;
+}
+
+.j{
+    padding-left: 50px;
+}
+
+.k{
+    padding-left: 50px;
+}
+
+.l{
+    padding-left: 60px;
+}
+
+.m{
+    padding-left: 65px;
+}
+
+.n{
+    padding-left: 60px;
+}
+
+.ñ{
+    padding-left: 70px;
+}
+
+.o{
+    padding-left: 50px;
+}
+
+.p{
+    padding-left: 66px;
+}
+
+.q{
+    padding-left: 70px;
+}
+
+.r{
+    padding-left: 70px;
+}
+
+.s{
+    padding-left: 60px;
+}
+
+.CCC{
+    padding-left: 55px;
+}
+
+.aa{
+    padding-left: 50px;
+}
+
+.bb{
+    padding-left: 60px;
+}
+
+.cc{
+    padding-left: 60px;
+}
+
+.ee{
+    padding-left: 55px;
+}
+.ff{
+    padding-left: 60px;
+}
+
+.gg{
+    padding-left: 60px;
+}
+
+.hh{
+    padding-left: 60px;
+}
+
+.ii{
+    padding-left: 60px;
+}
+
+.jj{
+    padding-left: 40px;
+}
+
+.kk{
+    padding-left: 45px;
+}
+
+.ll{
+    padding-left: 45px;
+}
+
+.nn{
+    padding-left: 45px;
+}
+
+.ññ{
+    padding-left: 30px;
+}
+
+.oo{
+    padding-left: 30px;
+}
+
+.cienciasN{
+    padding-left: 50px;
+}
+
+.arriba{
+    display: flex;
+    background-color: #023e73;
+    width: 1278px;
+    height: 100px
+    padding-center 350px;
+}
+h1{
+    text-align: center;
+    color: antiquewhite;
+    font-family: "poppins";
+    text-transform: uppercase;
+    height: 40px;
+}

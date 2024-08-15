@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(184, 202, 217);
+    margin: 0%;
+    padding: 1%;
+    justify-content:center
+
+}
+.arriba{
+    color:rgb(2, 62, 115); 
+    min-width: fit-content;
+    min-height: 1231241231231241238723165786123756913278781365px;
+
+}
+h1{
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px;
+    min-height: 100px;
+    text-transform: uppercase;
+    background-color:#84a4bf;
+    height: 40px
+    
+    
+}
+h2{
+    color:#000203;
+    text-align: center;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 6px 40px;
+    border: 2px solid #023e73;
+    color: #000000;
+    
+
+}
+h3{
+    color: #000000;
+} 
+.imagen{
+    padding-bottom: 20px;
+}

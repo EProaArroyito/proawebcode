@@ -1,0 +1,619 @@
+body {
+    background-color: rgb(242, 242, 242);
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+.arriba {
+    display: flex;
+    min-height: 90px;
+    background-color: rgb(2, 62, 115); 
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px;
+    min-height: 100px;
+    color: white;
+    padding-left: 50px;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transform: translateY(15px);
+}
+
+.menu ul li {
+    margin-right: 20px;
+    padding: 15px 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(81, 124, 159);
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: rgb(184, 202, 217);
+    background-color: rgb(43, 95, 140);
+    padding: 21px 35px;
+    transition: 0.3s ease;
+}
+
+.logo {
+    padding-left: 4px;
+}
+
+h1 {
+    position: absolute;
+    padding-left: 100px;
+    color: rgb(242, 242, 242);
+    font-family: "Poppins";
+    .poppins-bold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+}
+
+h2 {
+    font-family: "Poppins";
+    padding-left: 10px;
+    font-size: 40px;
+    color: rgb(81, 124, 159);
+    .poppins-bold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+}
+
+p {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: rgb(2, 62, 115);
+    font-family: "Poppins";
+    .poppins-bold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+}
+
+.Inicio {
+    background-color: rgb(184, 202, 217);
+    margin-top: 29px;
+    padding: 1px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+
+    .foto1 {
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-bottom: 50px;
+        border-radius: 50px;
+    }
+    .foto2 {
+        padding-bottom: 50px;
+    }
+}
+
+h3 {
+    font-size: 25px;
+    padding-left: 10px;
+    color: rgb(43, 95, 140);
+    font-family: "Poppins";
+    .poppins-bold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+}
+
+.ProA {
+    padding-left: 20px;
+    padding-bottom: 21px;
+    padding-top: 50px;
+    border-radius: 55px;
+}
+
+.escuela {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 55px;
+}
+
+.Sedes {
+    background-color: rgb(63, 104, 140);
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    min-height: 100px;
+
+    h2 {
+        color: rgb(184, 202, 217);
+        padding-left: 50px;
+        padding-bottom: 29.8px;
+    }
+}
+
+.Arro {
+    background-color: rgb(184, 202, 217);
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    min-height: 100px;
+
+    h2 {
+        color: rgb(63, 104, 140);
+        padding-left: 50px;
+    }
+}
+
+.mtmd {
+    padding-top: -15px;
+    display: flex;
+    align-content: space-evenly;
+
+    h2 {
+        padding-left: 30px;
+        padding-bottom: 20px;
+    }
+}
+
+.banderas {
+    text-align: start;
+    padding: 20px;
+}
+
+.banderas-contenido {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; 
+    margin: 0;
+}
+
+.banderas-contenido div {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+.banderas-contenido img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.banderas h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.argg {
+    background-color: rgb(81, 124, 159);
+    h3 {
+        color: rgb(2, 62, 115);
+    }
+    p {
+        font-size: 16px;
+        color: rgb(2, 62, 115)
+    }
+}
+
+.cbaa {
+    background-color: rgb(184, 202, 217);
+    h3 {
+        color: rgb(81, 124, 159);
+    }
+    p {
+        color: rgb(81, 124, 159);
+    }
+}
+
+.arroo {
+    h3 {
+        color: rgb(184, 202, 217);
+    }
+    background-color: rgb(2, 62, 115);
+    p {
+        color: rgb(184, 202, 217);
+    }
+}
+
+.banderas-contenido div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banderas-contenido img {
+    max-width: 80%; 
+    height: auto;
+}
+
+.banderas h3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.banderas p {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.redes {
+    padding-left: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: start;
+    padding-left: 45px;
+}
+
+.mtmd{
+    padding-left: 50px;
+    margin-bottom: 0;
+}
+.mtmd2{
+    padding-left: 50px;
+    margin-top: 0;
+}
+
+.img-container {
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center; 
+    background-color: #fff; 
+    transition: transform 0.3s ease; 
+    justify-content: space-around;
+}
+
+.img-container img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.img-container h3 {
+    margin: 10px 0 5px;
+    font-size: 1.1em;
+    color: rgb(43, 95, 140); 
+}
+
+.img-container p {
+    margin: 0 10px 10px;
+    font-size: 0.9em;
+    color: #666; 
+}
+
+.img-container:hover {
+    transform: scale(1.05);
+}
+
+.img-container img:hover {
+    transform: scale(1.1); 
+}
+footer{
+    background-color: rgb(184, 202, 217);
+
+}
+.tit{
+    padding-top: 10px;
+    padding-left: 20px;
+
+}
+
+.titu{
+    padding-top: 5px;
+    margin-bottom: -15px;
+    margin-top: -50px;
+    padding-left: 20px;
+    font-size: 28px;
+}
+
+.ig{
+    padding-top: 10px;
+    padding-right: 5px;
+    color: rgb(2, 62, 115);
+    transform: translateY(10px);
+
+}
+.fb{
+    color: rgb(2, 62, 115);
+    transform: translateY(10px);
+
+}
+
+
+.mail{
+    color: rgb(2, 62, 115);
+    transform: translateY(10px);
+}
+
+.tel{
+    color: rgb(2, 62, 115);
+    transform: translateY(10px);
+
+}
+.ubi{
+    margin-top: -10px;
+    padding-left: 20px;
+
+}
+.ubi2{
+    padding-left: 20px;
+
+}
+
+.todo{
+    display: flex;
+    justify-items: center;
+    margin: 0%;
+    padding-top: 0px;
+    margin-bottom: 0%;
+    background-color: rgb(184, 202, 217);
+}
+.contacto{
+    padding-left: 40px;
+
+
+}
+.cont{
+    margin-top: -35px;
+    margin-right: 15px;
+    
+}
+
+.Proyectos {
+    background-color: rgb(81, 124, 159);
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    min-height: 100px;
+    padding-bottom: 100px;
+
+    h2 {
+        color: rgb(2, 62, 115);
+        padding-left: 50px;
+    }
+}
+
+.derechos{
+    text-align: end;
+    font-size: 15px;
+}
+  
+.descargar{
+    color: rgb(242, 242, 242);
+    text-decoration: none;
+    background-color: rgb(151, 173, 190);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 45px;
+    
+}
+
+
+
+.descargar:hover{
+    background-color: rgb(2, 62, 115);
+    transition: 0.3s ease;
+
+}
+
+.t-ebohr{
+    color: rgb(184, 202, 217);
+    font-size: 30px;
+    padding-left: 50px;
+}
+.tex-ebohr{
+    padding-left: 50px;
+    font-size: 18px;
+    color: rgb(151, 173, 190);
+}
+.logo-ebohr{
+    transform: translateY(18px);
+    padding-left: 10px;
+}
+
+
+
+
+.sedestabla{
+    color: rgb(242, 242, 242);
+    display: flex;
+}
+
+
+
+table tr{
+    font-family: "Poppins";
+    letter-spacing: 0,1;
+    color: rgb(242, 242, 242);
+}
+.a{
+    padding-left: 65px;
+    text-align: start;
+}
+.pro1 tr{
+    letter-spacing: 700px;
+}
+.b{
+    padding-left: 50px;
+}
+
+.c{
+    padding-left: 65px;
+}
+
+.d{
+    padding-left: 60px;
+}
+
+.e{
+    padding-left: 65px;
+}
+
+.f{
+    padding-left: 60px;
+}
+
+.g{
+    padding-left: 60px;
+}
+
+.h{
+    padding-left: 60px;
+}
+
+.i{
+    padding-left: 66px;
+}
+
+.j{
+    padding-left: 50px;
+}
+
+.k{
+    padding-left: 50px;
+}
+
+.l{
+    padding-left: 60px;
+}
+
+.m{
+    padding-left: 65px;
+}
+
+.n{
+    padding-left: 60px;
+}
+
+.ñ{
+    padding-left: 70px;
+}
+
+.o{
+    padding-left: 50px;
+}
+
+.p{
+    padding-left: 66px;
+}
+
+.q{
+    padding-left: 70px;
+}
+
+.r{
+    padding-left: 70px;
+}
+
+.s{
+    padding-left: 60px;
+}
+
+.CCC{
+    padding-left: 55px;
+}
+
+.aa{
+    padding-left: 50px;
+}
+
+.bb{
+    padding-left: 60px;
+}
+
+.cc{
+    padding-left: 60px;
+}
+
+.ee{
+    padding-left: 55px;
+}
+.ff{
+    padding-left: 60px;
+}
+
+.gg{
+    padding-left: 60px;
+}
+
+.hh{
+    padding-left: 60px;
+}
+
+.ii{
+    padding-left: 60px;
+}
+
+.jj{
+    padding-left: 40px;
+}
+
+.kk{
+    padding-left: 45px;
+}
+
+.ll{
+    padding-left: 45px;
+}
+
+.nn{
+    padding-left: 45px;
+}
+
+.ññ{
+    padding-left: 30px;
+}
+
+.oo{
+    padding-left: 30px;
+}
+
+.cienciasN{
+    padding-left: 50px;
+}
+
+.arriba{
+    display: flex;
+    background-color: #023e73;
+    width: 1278px;
+    height: 100px
+    padding-center 350px;
+}
+h1{
+    text-align: center;
+    color: antiquewhite;
+    font-family: "poppins";
+    text-transform: uppercase;
+    height: 40px;
+}
